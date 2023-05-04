@@ -1,0 +1,73 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  h1{
+    font-weight: bold;
+    font-style: italic;
+    color: blue;
+    cursor:crosshair;
+  }
+  .image{
+    justify-content: end;
+    position: absolute;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  ::placeholder{
+    color: blueviolet;
+  }
+  
+  #temperature-input {
+    width: 80%;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid blueviolet;
+    margin-right: 10px;
+    font-size: 20px;
+    color: blueviolet;
+  }
+  
+  #unit-selector {
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid blueviolet;
+    font-size: 25px;
+    color: blueviolet;
+  }
+  
+  #convert-btn {
+    padding: 10px 20px;
+    background-color: #2196F3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  #convert-btn:hover{
+    padding: 30px;
+    background-color: aquamarine;
+    color: blue;
+    border:cyan;
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow:0 20px 15px 0 black;
+    opacity: 70%;
+    position: relative;
+  }
+  
+  #result {
+    margin-top: 60px;
+    font-size: 30px;
+    color: aqua;
+    font-weight: bold;
+    font-style: italic;
+  }
+  
